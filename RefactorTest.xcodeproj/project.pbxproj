@@ -15,6 +15,10 @@
 		1F35DD3C1C0C361200F10BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F35DD3A1C0C361200F10BFC /* LaunchScreen.storyboard */; };
 		1F35DD471C0C361200F10BFC /* RefactorTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F35DD461C0C361200F10BFC /* RefactorTestTests.m */; };
 		1F35DD521C0C361200F10BFC /* RefactorTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F35DD511C0C361200F10BFC /* RefactorTestUITests.m */; };
+		B393525C275FD7CB0143B012 /* MySubClass2.m in Sources */ = {isa = PBXBuildFile; fileRef = B39357870060CFF0CC8CA6F1 /* MySubClass2.m */; };
+		B3935AF30F443ECA91648851 /* MySubClass1.m in Sources */ = {isa = PBXBuildFile; fileRef = B3935EA37F03D644490EF126 /* MySubClass1.m */; };
+		B3935BA2BC81B746816BAE14 /* MySuperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B3935E4446D1FD9D6654380D /* MySuperClass.m */; };
+		B3935D747CE4B0FB615C1A58 /* MySuperClass+Protected.m in Sources */ = {isa = PBXBuildFile; fileRef = B3935C42112A4C9E33294B86 /* MySuperClass+Protected.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		1F35DD4D1C0C361200F10BFC /* RefactorTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RefactorTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F35DD511C0C361200F10BFC /* RefactorTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefactorTestUITests.m; sourceTree = "<group>"; };
 		1F35DD531C0C361200F10BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B393572761EE751695F03732 /* MySubClass1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySubClass1.h; sourceTree = "<group>"; };
+		B39357870060CFF0CC8CA6F1 /* MySubClass2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySubClass2.m; sourceTree = "<group>"; };
+		B393595F956C00CBE5F36B48 /* MySuperClass+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MySuperClass+Protected.h"; sourceTree = "<group>"; };
+		B3935C42112A4C9E33294B86 /* MySuperClass+Protected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MySuperClass+Protected.m"; sourceTree = "<group>"; };
+		B3935D4E521C59A02E488AA1 /* MySubClass2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySubClass2.h; sourceTree = "<group>"; };
+		B3935E4446D1FD9D6654380D /* MySuperClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySuperClass.m; sourceTree = "<group>"; };
+		B3935EA37F03D644490EF126 /* MySubClass1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySubClass1.m; sourceTree = "<group>"; };
+		B3935F458C8512A738C83B71 /* MySuperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySuperClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				1F35DD3A1C0C361200F10BFC /* LaunchScreen.storyboard */,
 				1F35DD3D1C0C361200F10BFC /* Info.plist */,
 				1F35DD2C1C0C361200F10BFC /* Supporting Files */,
+				B3935E4446D1FD9D6654380D /* MySuperClass.m */,
+				B3935F458C8512A738C83B71 /* MySuperClass.h */,
+				B3935C42112A4C9E33294B86 /* MySuperClass+Protected.m */,
+				B393595F956C00CBE5F36B48 /* MySuperClass+Protected.h */,
+				B3935EA37F03D644490EF126 /* MySubClass1.m */,
+				B393572761EE751695F03732 /* MySubClass1.h */,
+				B39357870060CFF0CC8CA6F1 /* MySubClass2.m */,
+				B3935D4E521C59A02E488AA1 /* MySubClass2.h */,
 			);
 			path = RefactorTest;
 			sourceTree = "<group>";
@@ -273,6 +293,10 @@
 				1F35DD341C0C361200F10BFC /* ViewController.m in Sources */,
 				1F35DD311C0C361200F10BFC /* AppDelegate.m in Sources */,
 				1F35DD2E1C0C361200F10BFC /* main.m in Sources */,
+				B3935BA2BC81B746816BAE14 /* MySuperClass.m in Sources */,
+				B3935D747CE4B0FB615C1A58 /* MySuperClass+Protected.m in Sources */,
+				B3935AF30F443ECA91648851 /* MySubClass1.m in Sources */,
+				B393525C275FD7CB0143B012 /* MySubClass2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
