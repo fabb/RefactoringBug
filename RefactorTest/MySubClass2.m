@@ -4,6 +4,7 @@
 
 @implementation MySubClass2
 
+// remove param2 via Change Signature refactoring
 - (void)someMethodWithParam1:(id)param1 param2:(id)param2 {
 
 }
